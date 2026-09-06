@@ -15,7 +15,7 @@ initial begin
     rst = 0; 
     en = 0; 
     
-    #5 rst = 0; en = 0; 
+    #5 rst = 1; en = 0; 
     #5 rst = 0; en = 0; 
     #5 rst = 0; en = 1; 
     #5 $finish; 
