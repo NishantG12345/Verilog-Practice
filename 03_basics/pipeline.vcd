@@ -1,0 +1,54 @@
+$date
+	Sun Sep  6 22:20:31 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module pipeline_tb $end
+$var wire 8 ! result [7:0] $end
+$var reg 8 " A [7:0] $end
+$var reg 8 # B [7:0] $end
+$var reg 8 $ C [7:0] $end
+$var reg 1 % clk $end
+$scope module dut $end
+$var wire 8 & A [7:0] $end
+$var wire 8 ' B [7:0] $end
+$var wire 8 ( C [7:0] $end
+$var wire 1 % clk $end
+$var reg 8 ) result [7:0] $end
+$var reg 8 * stage1 [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx *
+bx )
+b1001001 (
+b110101 '
+b10101010 &
+0%
+b1001001 $
+b110101 #
+b10101010 "
+bx !
+$end
+#5
+b11011111 *
+1%
+#10
+0%
+#15
+b101000 !
+b101000 )
+1%
+#20
+0%
+#25
+1%

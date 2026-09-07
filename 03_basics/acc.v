@@ -16,9 +16,9 @@ always @(posedge clk) begin
     else
     state <= next_state;
     if(load_a)
-    reg_a <= a;
+    reg_a <= A;
     if(load_b) 
-    reg_b <= b;
+    reg_b <= B;
     if(add_enable)
     result <= reg_a + reg_b; 
     

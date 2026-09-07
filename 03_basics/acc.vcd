@@ -1,0 +1,119 @@
+$date
+	Sat Sep  5 20:29:02 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module acc_tb $end
+$var wire 1 ! valid $end
+$var wire 8 " result [7:0] $end
+$var reg 8 # A [7:0] $end
+$var reg 8 $ B [7:0] $end
+$var reg 1 % clk $end
+$var reg 1 & rst $end
+$var reg 1 ' start $end
+$scope module dut $end
+$var wire 8 ( A [7:0] $end
+$var wire 8 ) B [7:0] $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 ' start $end
+$var parameter 2 * COMPUTE $end
+$var parameter 2 + DONE $end
+$var parameter 2 , IDLE $end
+$var parameter 2 - LOAD $end
+$var reg 1 . add_enable $end
+$var reg 1 / load_a $end
+$var reg 1 0 load_b $end
+$var reg 2 1 next_state [1:0] $end
+$var reg 8 2 reg_a [7:0] $end
+$var reg 8 3 reg_b [7:0] $end
+$var reg 8 4 result [7:0] $end
+$var reg 2 5 state [1:0] $end
+$var reg 1 ! valid $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 -
+b0 ,
+b11 +
+b10 *
+$end
+#0
+$dumpvars
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+00
+0/
+0.
+b10101 )
+b10101010 (
+0'
+1&
+0%
+b10101 $
+b10101010 #
+bx "
+0!
+$end
+#5
+b0 1
+b0 5
+1%
+#7
+b1 1
+1'
+0&
+#10
+0%
+#15
+b10 1
+10
+1/
+b1 5
+1%
+#20
+0%
+#25
+b11 1
+1.
+00
+0/
+b10101 3
+b10101010 2
+b10 5
+1%
+#30
+0%
+#35
+b0 1
+1!
+0.
+b10111111 "
+b10111111 4
+b11 5
+1%
+#40
+0%
+#42
+b1101011 $
+b1101011 )
+#43
+b11110010 #
+b11110010 (
+#45
+b1 1
+0!
+b0 5
+1%
+#50
+0%
+#53
